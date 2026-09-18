@@ -1,3 +1,5 @@
+<p align="center"><img src="docs/assets/brand/logo-banner.png" alt="SaaS Maker" width="420"></p>
+
 # SaaS Maker
 
 Template generator for multi-tenant SaaS applications.
