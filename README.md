@@ -1,4 +1,9 @@
-<p align="center"><img src="docs/assets/brand/logo-banner.png" alt="SaaS Maker" width="420"></p>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/assets/brand/logo-banner-dark.png">
+    <img src="docs/assets/brand/logo-banner.png" alt="SaaS Maker" width="420">
+  </picture>
+</p>
 
 # SaaS Maker
 
