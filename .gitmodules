@@ -1,9 +1,9 @@
 [submodule "backend"]
 	path = backend
-	url = https://github.com/SaaS-Maker-Stack/saas-maker-backend.git
+	url = https://github.com/SaaS-Maker-Stack/backend.git
 [submodule "frontend"]
 	path = frontend
-	url = https://github.com/SaaS-Maker-Stack/saas-maker-frontend.git
+	url = https://github.com/SaaS-Maker-Stack/frontend.git
 [submodule "admin"]
 	path = admin
-	url = https://github.com/SaaS-Maker-Stack/saas-maker-admin.git
+	url = https://github.com/SaaS-Maker-Stack/admin.git

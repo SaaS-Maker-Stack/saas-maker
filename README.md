@@ -31,7 +31,7 @@ git submodule update --init
 
 ## Generate a New Project
 
-The CLI lives in [saas-maker-cli](https://github.com/SaaS-Maker-Stack/saas-maker-cli) (PyPI package `saas-maker`):
+The CLI lives in [cli](https://github.com/SaaS-Maker-Stack/cli) (PyPI package `saas-maker`):
 
 ```bash
 uvx saas-maker new my-app            # wizard: name, brand hue, Postgres, deploy and SMTP (optional)
@@ -56,7 +56,7 @@ cd backend && make migrate && make test && make lint
 ```
 
 The generated code follows the `projects` reference module (`reference/projects` branch in
-`saas-maker-backend` and `saas-maker-frontend`): every query filters by `organization_id`, other
+`backend` and `frontend` repos): every query filters by `organization_id`, other
 organizations get 404, any member reads, admin+ writes. The `saas-maker-add-module` Claude skill
 documents the same checklist for modules that are not a plain CRUD.
 
@@ -98,7 +98,7 @@ saas-maker/
 │   └── src/              # Same structure as frontend
 ├── PRPs/                 # Product Requirements Prompts
 │   └── templates/        # PRP base template
-├── generate-project.sh   # Legacy bash generator (the CLI lives in saas-maker-cli)
+├── generate-project.sh   # Legacy bash generator (the CLI lives in SaaS-Maker-Stack/cli)
 ├── docker-compose.yml    # Optional local infra (Postgres + Mailpit), full profile
 ├── DESIGN.md             # Design system (copied into generated projects)
 ├── CLAUDE.md             # Claude Code instructions
